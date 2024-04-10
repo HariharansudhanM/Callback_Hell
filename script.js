@@ -74,4 +74,4 @@ const display = () => {
   }, 1000);
 };
 
-display();
+document.querySelector(".trigger").addEventListener("click", display);
